@@ -1,0 +1,24 @@
+MP3 CRAWLER/DOWNLOADER (v1.1)
+
+SYNOPSIS
+       perl master.pl
+       perl downloader.pl [OPTION]...
+
+DESCRIPTION
+       These scripts are crawlers designed to download mp3 songs from Bollywood movies featured in the website www.apunkabollywood.net
+
+       The default values of internal variables in the script are set to download the songs for the year 2011. Same holds true for the list in the file songs.txt
+
+       The master script takes songs.txt file as input and downloads songs from the movies listed in it in a batch fashion. Alternately the downloader script can be invoked with the hyphenated name of the
+       movie to donwload the songs from only that movie.
+
+FILES
+       downloader.pl - Crawler to download the songs featured in a movie given as input to it
+       master.pl     - Wrapper for the downloader script to work in batch mode
+       songs.txt     - Input file for initiating downloads in batch mode
+
+AUTHOR
+       Written by Shubhodeep Roy Choudhury aka SRC.
+
+REPORTING BUGS
+       Report bugs or enhancement requests to deepsrc@gmail.com
